@@ -8,19 +8,19 @@ menu:
 # Customize
 customize:
     logo:
-        width: 165
-        height: 60
+        width: 325
+        height: 85
         url: images/logo-header.png
     theme_color: '#006bde'
     highlight: androidstudio
-    sidebar: left # sidebar position, options: left, right
+    sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    favicon: images/favicon.ico # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
-        twitter: /
+        twitter: https://twitter.com/Espumitadk
         facebook: /
         google-plus: /
-        github: https://github.com/ppoffice/hexo-theme-hueman
+        github: https://github.com/espumitadk
         weibo: /
         rss: /
 
