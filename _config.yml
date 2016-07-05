@@ -2,7 +2,6 @@
 menu:
     Home: /
     # Delete this row if you don't want categories in your header nav bar
-    Categories:
     About: /about/index.html
 
 # Customize
@@ -12,17 +11,14 @@ customize:
         height: 85
         url: images/logo-header.png
     theme_color: '#006bde'
-    highlight: androidstudio
+    highlight: monokai
     sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: images/favicon.ico # path to favicon
+    favicon: favicon.png # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
         twitter: https://twitter.com/Espumitadk
-        facebook: /
-        google-plus: /
         github: https://github.com/espumitadk
-        weibo: /
-        rss: /
+
 
 # Widgets
 widgets:
@@ -46,13 +42,13 @@ comment:
     youyan: # enter youyan uid here
 
 # Share
-share: default # options: jiathis, bdshare, addtoany, default
+share: addtoany # options: jiathis, bdshare, addtoany, default
 
 # Plugins
 plugins:
     fancybox: true # options: true, false
     scrollLoading: true # options: true, false
-    google_analytics: # enter the tracking ID for your Google Analytics
+    google_analytics: UA-80286660-1 # enter the tracking ID for your Google Analytics
     baidu_analytics: # enter Baidu Analytics hash key
 
 # Miscellaneous
